@@ -1,0 +1,4 @@
+# Proxy API requests to PlainID
+/api/*  https://presales-platform.us1.plainid.io/v1/:splat  200
+# Serve the app for all other routes
+/*  /index.html  200
